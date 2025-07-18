@@ -642,17 +642,20 @@ document.addEventListener('DOMContentLoaded', function() {
             <div class="certificate" style="background: #fff9fb; position: relative; padding: 50px; text-align: center;">
                 <div style="border: 2px solid #e94057; position: absolute; top: 20px; right: 20px; bottom: 20px; left: 20px; z-index: 1;"></div>
                 <div style="position: relative; z-index: 2;">
-                    <h1 style="font-family: 'Dancing Script', cursive; color: #e94057; font-size: 48px; margin-bottom: 20px;">Certificat d'Amour</h1>
-                    <h2 style="font-family: 'Montserrat', sans-serif; color: #333; font-size: 24px; margin-bottom: 40px;">Huit Ans de Sentiments Sincères</h2>
+                    <h1 style="font-family: 'Dancing Script', cursive; color: #e94057; font-size: 48px; margin-bottom: 20px;">Certificat d'Amour Éternel</h1>
+                    <h2 style="font-family: 'Montserrat', sans-serif; color: #333; font-size: 24px; margin-bottom: 40px;">Huit Années d'Un Amour Sincère et Profond</h2>
                     
-                    <div style="font-family: 'Dancing Script', cursive; font-size: 36px; color: #e94057; margin: 40px 0;">De Aymen pour Tesnouma</div>
+                    <div style="font-family: 'Dancing Script', cursive; font-size: 36px; color: #e94057; margin: 40px 0;">De Aymen pour sa Tesnouma bien-aimée</div>
                     
                     <div style="font-family: 'Playfair Display', serif; font-size: 18px; line-height: 1.8; margin-bottom: 40px; color: #555; text-align: center;">
-                        Par la présente, je célèbre une décennie de sentiments sincères et profonds.
-                        Ce certificat témoigne de mon amour véritable, qui a perduré à travers le temps.
+                        Par la présente, je certifie que depuis huit longues années, mon cœur bat uniquement pour Tesnim.
+                        Ce certificat témoigne d'un amour pur, sincère et inébranlable qui a traversé le temps sans jamais faiblir.
                         <br><br>
-                        Mon amour pour toi est aussi infini que les étoiles dans le ciel,
-                        aussi constant que le lever du soleil, et aussi précieux que tous les souvenirs que je garde de toi.
+                        Mon amour pour toi, Tesnouma, transcende les mots et le temps. Tu es l'étoile qui guide mes nuits,
+                        la lumière qui illumine mes jours, et l'espoir qui nourrit mon âme. Chaque battement de mon cœur
+                        porte ton nom, chaque souffle que je prends est une prière pour toi.
+                        <br><br>
+                        Tu es et resteras à jamais l'amour de ma vie, ma plus belle évidence, mon éternité.
                     </div>
                     
                     <div style="font-family: 'Montserrat', sans-serif; font-size: 16px; margin-bottom: 40px;">
