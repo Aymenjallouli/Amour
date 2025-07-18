@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pour  Mon Amour Éternel</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Montserrat:wght@300;400;600&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+</head>
+<body>    <div class="loader-container">
+        <div class="loader">
+            <div class="heart"></div>
+        </div>
+        <div class="mini-hearts-container"></div>
+        <p class="loader-text">Chargement de mon amour pour toi...</p>
+    </div>
+
+    <div class="music-control">
+        <button id="music-toggle" class="music-button">
+            <i class="fas fa-volume-up"></i>        </button>
+    </div>
+
+    <div class="navigation-dots">
+        <div class="nav-dot active" data-section="welcome"></div>
+        <div class="nav-dot" data-section="love-letter"></div>
+        <div class="nav-dot" data-section="love-messages"></div>
+        <div class="nav-dot" data-section="final"></div>
+    </div>
+
+    <div class="section-nav hidden">
+        <div class="nav-arrow prev-section disabled">
+            <i class="fas fa-chevron-left"></i>
+        </div>
+        <div class="nav-arrow next-section">
+            <i class="fas fa-chevron-right"></i>
+        </div>
+    </div>
+
+    <div class="page-indicator hidden">
+        <span class="current-page">1</span>/<span class="total-pages">4</span>
+    </div>
+
+    <div class="content hidden">
+        <!-- Section d'accueil -->
+        <section id="welcome" class="section">
+            <div class="falling-petals"></div>
+            <div class="particles"></div>
+            <div class="welcome-content">                <h1 class="Tesnim-name"> Tesnouma </h1>
+                <p class="subtitle">Dans mon cœur depuis Longtemps</p>
+                <button id="open-surprise" class="btn">Ouvrir ma surprise</button>
+            </div>
+        </section>
+
+        <!-- Lettre d'amour -->
+        <section id="love-letter" class="section hidden">
+            <div class="section-container">
+                <div class="letter-paper">
+                    <h2>Ma chère Tesnouma ,</h2>                    <div id="typewriter-text" class="letter-content">
+                        Huit ans se sont écoulés depuis que nos chemins se sont croisés, huit ans où ta présence dans ma vie, même de loin, a été une source de lumière. Ton nom, Tesnim, évoque pour moi la beauté et la lumière, car tu as illuminé mon cœur depuis le premier jour.
+
+                        Même si notre histoire a été brève, ces moments passés ensemble restent gravés dans mon cœur. Je me souviens encore de notre première rencontre comme si c'était hier. Ce moment a changé ma vie à jamais.
+
+                        Peu importe les circonstances qui nous ont séparés, mes sentiments pour toi sont restés intacts. Tu as été mon premier véritable amour, et ton souvenir m'accompagne chaque jour.
+
+                        J'espère que ce message te touchera et te fera comprendre à quel point tu as été et continues d'être importante pour moi.
+                    </div><p class="signature">Avec tout mon amour,<br>Aymen</p>
+                </div>
+                <button class="continue-btn btn">Continuer</button>
+            </div>
+        </section>
+
+        <!-- Messages d'amour -->
+        <section id="love-messages" class="section hidden">
+            <div class="section-container">
+                <h2>Mots Doux Pour Toi</h2>
+                <div class="messages-container">
+                    <div class="message-card" data-index="1">
+                        <div class="message-front">
+                            <i class="fas fa-envelope-open-heart"></i>
+                            <p>Cliquez pour ouvrir</p>
+                        </div>
+                        <div class="message-back">
+                            <p>Ton sourire est la plus belle chose que j'ai vue de ma vie.</p>
+                        </div>
+                    </div>
+                    <div class="message-card" data-index="2">
+                        <div class="message-front">
+                            <i class="fas fa-envelope-open-heart"></i>
+                            <p>Cliquez pour ouvrir</p>
+                        </div>
+                        <div class="message-back">
+                            <p>Chaque matin, ma première pensée est pour toi.</p>
+                        </div>
+                    </div>
+                    <div class="message-card" data-index="3">
+                        <div class="message-front">
+                            <i class="fas fa-envelope-open-heart"></i>
+                            <p>Cliquez pour ouvrir</p>
+                        </div>
+                        <div class="message-back">
+                            <p>Tu es la mélodie qui ne quitte jamais mon cœur.</p>
+                        </div>
+                    </div>
+                    <div class="message-card" data-index="4">
+                        <div class="message-front">
+                            <i class="fas fa-envelope-open-heart"></i>
+                            <p>Cliquez pour ouvrir</p>
+                        </div>
+                        <div class="message-back">
+                            <p>Avec toi, chaque jour ordinaire devient extraordinaire.</p>
+                        </div>
+                    </div>
+                    <div class="message-card" data-index="5">
+                        <div class="message-front">
+                            <i class="fas fa-envelope-open-heart"></i>
+                            <p>Cliquez pour ouvrir</p>
+                        </div>
+                        <div class="message-back">
+                            <p>Ton rire est ma musique préférée.</p>
+                        </div>
+                    </div>
+                    <div class="message-card" data-index="6">
+                        <div class="message-front">
+                            <i class="fas fa-envelope-open-heart"></i>
+                            <p>Cliquez pour ouvrir</p>
+                        </div>
+                        <div class="message-back">
+                            <p>Je t'aime plus aujourd'hui qu'hier, mais moins que demain.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="continue-btn btn">Continuer</button>
+            </div>
+        </section>        <!-- Section finale -->
+        <section id="final" class="section hidden">
+            <div class="falling-petals"></div>
+            <div class="particles"></div>
+            <div class="section-container">                <h2>Pour toujours dans mon cœur</h2>
+                <p class="final-message">Huit ans à t'aimer, même si notre histoire n'a pas toujours été réciproque. Mon amour pour toi reste sincère et profond.</p>
+                <div class="certificate-container">
+                    <a href="#" id="download-certificate" class="btn certificate-btn">Télécharger mon certificat d'amour (PNG)</a>
+                </div><div class="final-question">
+                    <p>Tesnim , ma lumière depuis toujours...</p>
+                    <button id="final-question-btn" class="btn pulsate-btn">Accepterais-tu de me donner une chance ?</button>
+                </div>
+                <div id="response-container" class="hidden">
+                    <button id="yes-btn" class="response-btn">Oui</button>
+                    <button id="no-btn" class="response-btn no-btn">Non</button>
+                </div>
+                <div id="final-response" class="hidden">
+                    <div id="yes-response" class="final-response-content hidden">
+                        <h3>Je t'aime infiniment !</h3>
+                        <div class="heart-explosion"></div>
+                    </div>
+                    <div id="no-response" class="final-response-content hidden">
+                        <p>Peu importe ta réponse, mon amour pour toi est inconditionnel et éternel ❤️</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>    <!-- Option 1: Si vous avez téléchargé le fichier -->
+    <audio id="background-music" loop>
+        <source src="amy-winehouse-back-to-black.mp3" type="audio/mpeg">
+        <!-- Fallback avec une belle mélodie romantique -->
+        <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+    </audio>
+    
+    <!-- Option 2: Intégration Spotify (nécessite un widget) -->
+    <!-- <iframe style="border-radius:12px; position: absolute; opacity: 0;" src="https://open.spotify.com/embed/track/4LJ4ySgL2gFNQ5aAVP7YfQ?utm_source=generator&autoplay=1" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe> -->
+
+    <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
